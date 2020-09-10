@@ -1,0 +1,12 @@
+
+let name = prompt ("Vad heter du")
+let age = prompt ("Hur gammal är du")
+let adress = prompt ("Vad är din adress")
+let postnummer = prompt ("Vad är ditt postnummer")
+let telefonnummer = prompt ("Ditt telefonnummer")
+console.log (`Information om mig`)
+console.log(`Namn: ${name}`)
+console.log(`Age: ${age}`)
+console.log(`Adress: ${adress}`)
+console.log(`postnummer: ${postnummer}`)
+console.log(`Telefonnummer: ${telefonnummer}`)
