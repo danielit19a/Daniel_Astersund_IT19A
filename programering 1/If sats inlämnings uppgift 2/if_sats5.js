@@ -1,5 +1,5 @@
 let vikt = prompt ("Hur mycket väger din handbaggage kg")
-let storlek = prompt ("längd på din handbaggage i cm")
+let längd = prompt ("längd på din handbaggage i cm")
 let bredd = prompt ("bredden på din handbaggage i cm")
 let höjd = prompt ("Höjden på din handbagge i cm")
 
@@ -8,7 +8,7 @@ if (vikt <= 8) {
 }else {
     console.log ("Din handbaggage är inte godkänd")
 }
-if (storlek <= 55) {
+if (längd <= 55) {
     console.log ("Din längd är godkänt")
 } else {
     console.log ("Din längd är inte godkänt")
