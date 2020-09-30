@@ -19,4 +19,15 @@ article{
     section {
       flex-direction:column;
     }
+  } 
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200;
+      background-color: black;
+  } li a {
+      display: block;
+      background-color:yellow;
+      text-align: center;
   }
