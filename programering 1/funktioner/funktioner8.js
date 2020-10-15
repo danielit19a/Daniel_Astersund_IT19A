@@ -35,3 +35,10 @@ function multiplikation(tal1, tal2){
     return summa
 }
 console.log(`10*5=${multiplikation(10,5)}`)
+
+function cirkelArea(radie){
+let area = Math.PI*radie**2
+return area
+}
+
+console.log(`Arean av en cirkel med radie 10 är ${cirkelArea(10)}`)
