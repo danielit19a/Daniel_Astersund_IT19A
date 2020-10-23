@@ -1,7 +1,7 @@
 header, nav, article, footer {
     border:10px black;
     text-align: center;
-    background-color:darkred;
+    background-color: blue;
 }
 
 section{
@@ -20,16 +20,12 @@ article{
         flex-direction: column;
     }
 }
-
-nav{
-    flex: 4;
-}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: green;
+    background-color: gray;
   }
   
   li {
