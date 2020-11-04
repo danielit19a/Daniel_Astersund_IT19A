@@ -1,0 +1,12 @@
+#text {
+    visibility: hidden;
+    text-align: center;
+    position: relative;
+}
+#blå:hover {
+    content:url("mc.png");
+
+}
+#wrapper1:hover #text {
+    visibility: visible;
+}
