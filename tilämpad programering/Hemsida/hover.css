@@ -3,10 +3,10 @@
     text-align: center;
     position: relative;
 }
-#blå:hover {
-    content:url("mc.png");
+#bild1:hover {
+    content:url("mc.png"); width: 500px; height: 200px;
 
 }
 #wrapper1:hover #text {
     visibility: visible;
-}
+} 
