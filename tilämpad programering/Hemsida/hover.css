@@ -1,12 +1,29 @@
+
+section {
+    width: 200px;
+    border: 20px black;
+   
+   
+}
+
+
 #text {
     visibility: hidden;
     text-align: center;
     position: relative;
 }
 #bild1:hover {
-    content:url("mc.png"); width: 500px; height: 200px;
+    content:url("mc.png"); width: 500px; 
+   background-color: yellow;
+    
 
 }
-#wrapper1:hover #text {
+#bild1:hover #text { 
     visibility: visible;
+}
 } 
+
+}
+#Bild2:hover {
+    content:url("tenor.gif"); width: 500px;
+}
