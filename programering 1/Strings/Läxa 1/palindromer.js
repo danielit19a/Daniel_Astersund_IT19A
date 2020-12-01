@@ -14,14 +14,15 @@ function Palindrom(){
     console.log(backlänges)  
     let Länka = backlänges.join("");
     console.log(Länka)  
-    if (Text == Länka) {
+    Txt1.innerHTML += Text
+    Txt2.innerHTML += Länka
+    if (Text == Länka) { 
+        Txt3.innerHTML = "palindrom"
         console.log("Det är en Palindrom")
             } else {
                 console.log("Det är inte en Palindrom")
-                Txt1.innerHTML += Text
-                Txt2.innerHTML += Länka
-               
-            }
+              Txt3.innerHTML = "Det är inte en palindrom"
+            } 
       
      
         
