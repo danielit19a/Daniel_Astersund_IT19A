@@ -1,0 +1,47 @@
+header, article, footer {
+    border:10px purple;
+    text-align: center;
+    background-color: purple;
+}
+ nav{
+    border:10px purple;
+    text-align: center;
+    background-color:purple;
+    
+}
+section{
+    display: flex: 6;
+    margin: 0;
+}
+
+nav{
+    flex: 4;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 11px 30px;
+    text-decoration: none;
+  }
+  
+article{
+    flex: 6;
+}
+@media only screen and (max-width: 700px) {
+    section {
+        flex-direction: column;
+    }
+}

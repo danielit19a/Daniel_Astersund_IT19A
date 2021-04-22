@@ -17,3 +17,14 @@ for (let i = 0; i< 20; i++){
     console.log(i); 
     }
 }
+for (let i = 0; i < 5; i++) {
+    console.log(i)
+}
+
+let tal = [3, 5, 8]
+let summa = tal[1]+tal[0]
+console.log(summa)
+
+let frukter = ["kiwi", "äpple", "bannan", "jordgubbar"]
+let godfrukt = frukter[2]
+console.log(godfrukt)
