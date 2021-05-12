@@ -1,28 +1,39 @@
-header, article, footer {
+ article, footer {
     border:10px purple;
     text-align: center;
     background-color: purple;
 }
  nav{
     border:10px purple;
-    text-align: center;
+    flex: 4;
     background-color:purple;
+    text-align: center;
     
 }
 section{
-    display: flex: 6;
     margin: 0;
+    display: flex;
+    
+    
+}
+p {
+    background-color:white;
+}
+h2 {
+    background-color: white;
 }
 
-nav{
-    flex: 4;
-}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: purple;
+  }
+  header {
+      border: white;
+      background-color: purple;
+      text-align: center;
   }
   
   li {
@@ -33,7 +44,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 11px 30px;
+    padding: 20px 30px; 
     text-decoration: none;
   }
   
