@@ -1,0 +1,57 @@
+article, footer {
+    border:10px purple;
+    text-align: center;
+    background-color: purple;
+}
+ nav{
+    border:10px purple;
+    flex: 4;
+    background-color:purple;
+    text-align: center;
+}
+section{
+    margin: 0;
+    display: flex;
+    
+    
+}
+p {
+    background-color:white;
+}
+h2 {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    text-align: center;
+  }
+  header {
+      border: white;
+      background-color: purple;
+      text-align: center;
+  }
+  
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 30px; 
+    text-decoration: none;
+  }
+  
+article{
+    flex: auto;
+}
+@media only screen and (max-width: 700px) {
+    section {
+        flex-direction: column;
+    }
+}

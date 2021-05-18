@@ -11,7 +11,11 @@ article, footer {
     
 }
 section{
-    margin: 0;
+    border: 1px;
+    margin: auto;
+    padding: 0.1%;
+    width: 30%;
+    back
     display: flex;
     
     
