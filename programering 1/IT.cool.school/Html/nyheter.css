@@ -12,7 +12,7 @@ article, footer {
 }
 section{
     margin: 0;
-    display: flex;
+    background-color: purple;
     
     
 }

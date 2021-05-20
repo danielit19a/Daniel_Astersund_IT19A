@@ -14,14 +14,14 @@ section{
     border: 1px;
     margin: auto;
     padding: 0.1%;
-    width: 30%;
-    back
-    display: flex;
+    width: 100%;
+    background-color: purple;
     
     
-}
-p {
-    background-color:white;
+    
+} td { background-color: white;}
+p,h2 {
+    background-color:white; text-align: center;
 }
 h2 {
     background-color: white;
@@ -36,7 +36,7 @@ ul {
   }
   header {
       border: white;
-      background-color: purple;
+      background-color:purple;
       text-align: center;
   }
   
