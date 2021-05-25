@@ -22,20 +22,44 @@
         </nav>
         <article>
             <h2>Skolan erbjuder två program</h2>
-            <button type="button">IT-programmet</button> 
-  
-            <button type="button">Mediaprogrammet</button>
+            <button onclick="myFunction()">IT Programmet</button>
+
+            <button onclick="myFunction2()">Media Programmet</button>
+
+          
+                <script>
+                    function myFunction() {
+                      var x = document.getElementById("IT");
+                      if (x.style.display === "none") {
+                        x.style.display = "block";
+                      } else {
+                        x.style.display = "none";
+                      }
+                    }
+                    </script>
+                    
+
+<script>
+    function myFunction2() {
+      var x = document.getElementById("Media");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+</div>
         </article>
         
-        <table class="IT show"> 
-            <tbody>
+        <table id="IT"> 
+            
                 <tr>
                     <td>Matematik </td>
                     <td> 100p</td>
                 </tr>
                 <tr>
-                    <td>Programmering 1 	
-                    </td>
+                    <td>Programmering 1 </td>
                     <td> 100p </td>
                 </tr>
                 <tr>
@@ -126,11 +150,11 @@
                     <td>Individuellt val	</td>
                     <td>200p</td>
                 </tr>
-            </tbody>
+            
         </table>
 <br>
-        <table class="Media">
-            <tbody>
+        <table id="Media">
+            
                 <tr>
                     <td>Animation 1	 </td>
                     <td>100p </td>
@@ -223,7 +247,7 @@
                     <td>Individuellt val</td>
                     <td>200p</td>
                 </tr>
-            </tbody>
+            
         </table>
         
     </section>
