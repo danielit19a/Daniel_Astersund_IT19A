@@ -40,12 +40,15 @@ ul {
   }
   
   li a {
+      background-color: black;
     display: block;
-    color: white;
+    color:white;
     text-align: center;
     padding: 20px 30px; 
     text-decoration: none;
   }
+
+ 
   
 article{
     flex: 6;

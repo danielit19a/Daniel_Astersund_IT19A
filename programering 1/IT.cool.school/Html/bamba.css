@@ -20,8 +20,8 @@ p {
 }
 h2 {
     background-color: white;
-}
 
+} td { background-color: white;}
 ul {
     list-style-type: none;
     margin: 0;
@@ -40,6 +40,7 @@ ul {
     float: left;
   }
   li a {
+    background-color: black;
     display: block;
     color: white;
     text-align: center;
